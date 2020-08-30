@@ -1,0 +1,21 @@
+
+CREATE TABLE IF NOT EXISTS forbidden_words (
+  Id INTEGER PRIMARY KEY AUTOINCREMENT,
+  Word TEXT,
+  Patterns TEXT
+);
+
+
+CREATE TABLE IF NOT EXISTS offensive_adjectives (
+  Id INTEGER PRIMARY KEY AUTOINCREMENT,
+  Word TEXT,
+  Patterns TEXT
+);
+
+
+CREATE TABLE IF NOT EXISTS problematic_slang_words (
+  Id INTEGER PRIMARY KEY AUTOINCREMENT,
+  Word TEXT,
+  Patterns TEXT
+);
+
